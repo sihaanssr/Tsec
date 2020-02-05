@@ -8,7 +8,7 @@ import Screens from './navigation/Screens';
 import { Images, articles, argonTheme } from './constants';
 import { enableScreens } from 'react-native-screens';
 
-enableScreens();
+//enableScreens();
 
 // cache app images
 const assetImages = [
