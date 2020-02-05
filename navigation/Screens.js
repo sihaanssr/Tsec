@@ -16,7 +16,7 @@ import Profile from "../screens/Profile";
 import Register from "../screens/Register";
 import Elements from "../screens/Elements";
 import Articles from "../screens/Articles";
-import QR_Scanner from "../screens/QR_Scanner";
+// import QR_Scanner from "../screens/QR_Scanner";
 // drawer
 import Menu from "./Menu";
 import DrawerItem from "../components/DrawerItem";
@@ -125,15 +125,15 @@ const HomeStack = createStackNavigator(
         headerTransparent: true
       })
     },
-    QR_Scanner: {
-      screen: QR_Scanner,
-      navigationOptions: ({ navigation }) => ({
-        header: (
-          <Header left={<Block />} white transparent title="" navigation={navigation} />
-        ),
-        headerTransparent: true
-      })
-    }
+    // QR_Scanner: {
+    //   screen: QR_Scanner,
+    //   navigationOptions: ({ navigation }) => ({
+    //     header: (
+    //       <Header left={<Block />} white transparent title="" navigation={navigation} />
+    //     ),
+    //     headerTransparent: true
+    //   })
+    // }
   },
   {
     cardStyle: {
